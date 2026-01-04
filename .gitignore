@@ -1,0 +1,52 @@
+# Sensitive files
+.env
+.env.local
+.env.*.local
+android/local.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase.json
+
+# Build and dependencies
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+assignment
+food_recipe/doc
+food_recipe/build/
+
+# Android
+android/.gradle/
+android/build/
+android/.idea/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+
+# Web
+web/
+
+# Windows
+windows/
+
+# Linux
+linux/
+
+# macOS
+macos/
